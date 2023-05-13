@@ -1,0 +1,62 @@
+
+
+Verificando tinyOk:
+
+linha: 1 - classe: palavra reservada - cadeia: if
+linha: 1 - classe: delimitador - cadeia: espaco
+linha: 1 - classe: constante numerica - cadeia: 0
+linha: 1 - classe: delimitador - cadeia: espaco
+linha: 1 - classe: simbolo individual - cadeia: <
+linha: 1 - classe: delimitador - cadeia: espaco
+linha: 1 - classe: simbolo adicional - cadeia: x
+linha: 1 - classe: delimitador - cadeia: espaco
+linha: 1 - classe: identificador - cadeia: or
+linha: 1 - classe: delimitador - cadeia: espaco
+linha: 1 - classe: simbolo adicional - cadeia: y
+linha: 1 - classe: delimitador - cadeia: espaco
+linha: 1 - classe: simbolo adicional - cadeia: >
+linha: 1 - classe: delimitador - cadeia: espaco
+linha: 1 - classe: simbolo adicional - cadeia: x
+linha: 1 - classe: delimitador - cadeia: espaco
+linha: 1 - classe: palavra reservada - cadeia: then
+linha: 1 - classe: delimitador - cadeia: espaco
+linha: 1 - classe: comentario - cadeia: {aqui eh um comentario}
+linha: 1 - classe: delimitador - cadeia: quebra de linha
+linha: 2 - classe: identificador - cadeia: fact
+linha: 2 - classe: delimitador - cadeia: espaco
+linha: 2 - classe: simbolo de atribuicao - cadeia: :=
+linha: 2 - classe: delimitador - cadeia: espaco
+linha: 2 - classe: constante numerica - cadeia: 1
+linha: 2 - classe: simbolo individual - cadeia: ;
+linha: 2 - classe: delimitador - cadeia: quebra de linha
+linha: 3 - classe: identificador - cadeia: teste
+linha: 3 - classe: delimitador - cadeia: espaco
+linha: 3 - classe: simbolo de atribuicao - cadeia: :=
+linha: 3 - classe: delimitador - cadeia: espaco
+linha: 3 - classe: simbolo individual - cadeia: ;
+linha: 3 - classe: delimitador - cadeia: quebra de linha
+linha: 4 - classe: palavra reservada - cadeia: repeat
+
+
+Verificando tinyErr:
+
+linha: 1 - classe: comentario - cadeia: {arquivo com erro}
+linha: 1 - classe: delimitador - cadeia: quebra de linha
+linha: 2 - classe: simbolo adicional - cadeia: a
+linha: 2 - classe: delimitador - cadeia: espaco
+linha: 2 - classe: simbolo de atribuicao - cadeia: :=
+linha: 2 - classe: delimitador - cadeia: espaco
+linha: 2 - classe: nao identificado - cadeia: 1f
+linha: 2 - classe: simbolo individual - cadeia: ;
+linha: 2 - classe: delimitador - cadeia: quebra de linha
+linha: 3 - classe: identificador - cadeia: teste
+linha: 3 - classe: delimitador - cadeia: espaco
+linha: 3 - classe: simbolo de atribuicao - cadeia: :=
+linha: 3 - classe: delimitador - cadeia: espaco
+linha: 3 - classe: constante numerica - cadeia: 1
+linha: 3 - classe: delimitador - cadeia: espaco
+linha: 3 - classe: nao identificado - cadeia: ,
+linha: 3 - classe: delimitador - cadeia: espaco
+linha: 3 - classe: constante numerica - cadeia: 2
+linha: 3 - classe: simbolo individual - cadeia: ;
+linha: 3 - classe: delimitador - cadeia: quebra de linha

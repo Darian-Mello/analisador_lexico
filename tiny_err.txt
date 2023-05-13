@@ -1,0 +1,3 @@
+{arquivo com erro}
+a := 1f;
+teste := 1 , 2;
