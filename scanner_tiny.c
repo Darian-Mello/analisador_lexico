@@ -17,7 +17,7 @@ void gravaResultados() {
          printf("Erro ao abrir arquivo\n");
          return;
       } else {
-         fprintf(arquivo, "");
+         fprintf(arquivo, " ");
          limpouArquivo = true;
       }
    }
@@ -33,7 +33,7 @@ void gravaResultados() {
    }
    fprintf(arquivo, "%s", retorno);
 
-   printf(retorno);
+   printf("%s", retorno);
    memset(retorno, 0, sizeof(retorno));
     
    fclose(arquivo);
