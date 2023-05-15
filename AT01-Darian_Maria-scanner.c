@@ -1,3 +1,14 @@
+/*
+Instituição: Instituto Federal de Educação, ciência e tecnologia
+Curso: BCC – Bacharelado em Ciência da Computação
+Disciplina: Cp – Compiladores
+Atividade: Implementação Scanner
+Prof. Carlos A Petry
+Alunos: Dariãn de Mello Vargas e Maria Eduarda Zanin Pereira
+Data: 14 de maio de 2023
+Resumo do trabalho: Implementamos um analisador léxico na linguagem C. Esse scanner tem o objetivo de detectar os tokens para estruturas da linguagem TINY.
+*/
+
 #include <stdbool.h>
 #include <stdio.h>
 #include <string.h>
@@ -7,6 +18,7 @@ bool gravouNomeArquivo = false, limpouArquivo = false;
 char strNomeArquivo[100];
 char retorno[100];
 
+// Funcao responsavel por gravar as classificacoes dos tokens no arquivo resultados.txt. tambem imprime no console 
 void gravaResultados() {
    int i, num;
    FILE *arquivo;
@@ -109,6 +121,7 @@ bool simboloIndividual (char ch) {
    return false;
 }
 
+// Varificacao se e simbolo de atribuicao
 bool simboloAtribuicao (char *str) {
    if (!strcmp(str, ":=")) {
       return true;
@@ -145,6 +158,7 @@ bool simboloAdicional (char ch) {
    return false;
 }
 
+// classifica o token a sua respectiva classe
 void validaToken (char palavra[], int linha) {
    int tamPalavra = strlen(palavra);
    if (tamPalavra == 1) {
@@ -182,6 +196,7 @@ void validaToken (char palavra[], int linha) {
    }
 }
 
+// percorre o arquivo selecionando os tokens
 void verificaArquivo (FILE *arquivo) {
    char c;
    int linha = 1;
@@ -253,8 +268,8 @@ int main () {
    char *texto;
    int tamanho;
 
-   tinyOk = fopen("tiny_ok.txt", "r");
-   tinyErr = fopen("tiny_err.txt", "r");
+   tinyOk = fopen("AT01-Darian_Maria-tiny_ok.txt", "r");
+   tinyErr = fopen("AT01-Darian_Maria-tiny_err.txt", "r");
 
    if (tinyOk == NULL || tinyErr == NULL) {
       printf("Erro ao abrir os arquivos!");

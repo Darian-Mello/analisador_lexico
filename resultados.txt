@@ -10,14 +10,6 @@ linha: 1 - classe: simbolo individual - cadeia: <
 linha: 1 - classe: delimitador - cadeia: espaco
 linha: 1 - classe: simbolo adicional - cadeia: x
 linha: 1 - classe: delimitador - cadeia: espaco
-linha: 1 - classe: identificador - cadeia: or
-linha: 1 - classe: delimitador - cadeia: espaco
-linha: 1 - classe: simbolo adicional - cadeia: y
-linha: 1 - classe: delimitador - cadeia: espaco
-linha: 1 - classe: simbolo adicional - cadeia: >
-linha: 1 - classe: delimitador - cadeia: espaco
-linha: 1 - classe: simbolo adicional - cadeia: x
-linha: 1 - classe: delimitador - cadeia: espaco
 linha: 1 - classe: palavra reservada - cadeia: then
 linha: 1 - classe: delimitador - cadeia: espaco
 linha: 1 - classe: comentario - cadeia: {aqui eh um comentario}
